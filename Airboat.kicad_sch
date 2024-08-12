@@ -6,6 +6,7 @@
 	(paper "A4")
 	(title_block
 		(date "2024-08-12")
+		(rev "1")
 		(company "Insight Wisconsin")
 	)
 	(lib_symbols)
@@ -689,6 +690,44 @@
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3"
 					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 106.68 129.54)
+		(size 48.26 41.91)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bcb33c5c-ad1b-4b20-95a2-055bafcbbda2")
+		(property "Sheetname" "Mechanical"
+			(at 106.68 128.8284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanical.kicad_sch"
+			(at 106.68 172.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Airboat"
+				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3"
+					(page "6")
 				)
 			)
 		)
