@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -285,6 +285,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -383,8 +384,24 @@
   },
   "sheets": [
     [
-      "a772d62b-9e8d-42e3-92d7-059cff83940a",
+      "32966cbd-337b-4fa7-b66f-bfe62b1c18c3",
       "Root"
+    ],
+    [
+      "02e382f4-e1e7-4e1b-a73d-e36f8e3f186b",
+      "MCU"
+    ],
+    [
+      "450de07c-431b-41c3-b4dc-3003fe77996d",
+      "USB"
+    ],
+    [
+      "bb914a23-e1b8-42c0-8b12-26fadab99985",
+      "Power"
+    ],
+    [
+      "b4bf0452-8957-43b4-857b-1edc4fb175d7",
+      "Motor"
     ]
   ],
   "text_variables": {}
