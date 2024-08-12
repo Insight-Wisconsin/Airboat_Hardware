@@ -2325,8 +2325,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1c478e6-a69a-4b5e-9d19-364ceca01d7c")
-		(property "Reference" "J3"
+		(uuid "8eef60d6-0299-4ccb-a4d8-cfadf260bdf7")
+		(property "Reference" "J5"
 			(at 212.09 55.8799 0)
 			(effects
 				(font
@@ -2344,7 +2344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
 			(at 209.55 55.88 0)
 			(effects
 				(font
@@ -2372,13 +2372,83 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc0a62b0-4614-4263-94a4-3a89a7707cb5")
+			(uuid "e2f40074-3855-4ee6-80a5-3d4dc4e3f86c")
 		)
 		(pin "2"
-			(uuid "5c00099d-be2b-4a43-b3bf-a60c9e854d08")
+			(uuid "8eb1835e-bbc7-4796-9aed-0e9872605329")
 		)
 		(instances
 			(project ""
+				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x02")
+		(at 213.36 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b17093db-cf37-489b-8fd9-1dbf57ec0538")
+		(property "Reference" "J3"
+			(at 215.9 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x02"
+			(at 215.9 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TerminalBlock:TerminalBlock_Altech_AK300-2_P5.00mm"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 213.36 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e805fae9-ee4d-4084-b4a3-474eec190b74")
+		)
+		(pin "2"
+			(uuid "223e80ee-ab2b-4dcc-b0bd-09818ae788ad")
+		)
+		(instances
+			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
 					(reference "J3")
 					(unit 1)
@@ -2447,76 +2517,6 @@
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
 					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 213.36 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f1004d90-4820-43ca-aea3-ba05f4033836")
-		(property "Reference" "J4"
-			(at 215.9 132.0799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Screw_Terminal_01x02"
-			(at 215.9 134.6199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 213.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 213.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 213.36 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e2973d85-84c7-4306-9267-2379f97584de")
-		)
-		(pin "2"
-			(uuid "1e3c584c-a179-479f-8a39-53541b5f72f7")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "J4")
 					(unit 1)
 				)
 			)

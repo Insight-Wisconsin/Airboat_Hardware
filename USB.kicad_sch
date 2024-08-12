@@ -2107,8 +2107,72 @@
 		(uuid "ef305bde-1291-42a1-90c1-5cf2fb172921")
 	)
 	(no_connect
+		(at 106.68 140.97)
+		(uuid "04cc0630-5d5f-40da-a17d-5aa2f267d4d3")
+	)
+	(no_connect
+		(at 106.68 179.07)
+		(uuid "1a30442f-800b-415d-8a8d-a3c706ca000e")
+	)
+	(no_connect
+		(at 106.68 158.75)
+		(uuid "245c9440-45c9-40f3-b151-152bb8090041")
+	)
+	(no_connect
+		(at 106.68 166.37)
+		(uuid "297b493d-22b1-4ae6-ab6e-ed9fe8166946")
+	)
+	(no_connect
+		(at 106.68 168.91)
+		(uuid "607f6498-cdc0-46fe-ad83-79e03999a8ce")
+	)
+	(no_connect
+		(at 106.68 176.53)
+		(uuid "712d627e-3ca7-4282-8193-54e8ae2faae4")
+	)
+	(no_connect
+		(at 106.68 135.89)
+		(uuid "75141761-55f0-40f8-916e-7fe9c51fc6be")
+	)
+	(no_connect
+		(at 106.68 181.61)
+		(uuid "790bd614-7ca0-416c-be1c-193af33f18f0")
+	)
+	(no_connect
+		(at 106.68 163.83)
+		(uuid "7e903d68-382e-47ef-b4ce-8fcc3af6c811")
+	)
+	(no_connect
 		(at 64.77 55.88)
 		(uuid "8044550d-dd74-4bb3-979d-c6c21b437e60")
+	)
+	(no_connect
+		(at 106.68 151.13)
+		(uuid "8ee9c6e6-438c-455a-9592-a57cae8ce446")
+	)
+	(no_connect
+		(at 106.68 148.59)
+		(uuid "979a68af-b2aa-4c47-b99f-194745a7c705")
+	)
+	(no_connect
+		(at 106.68 133.35)
+		(uuid "bb92e40c-841d-495a-9bc1-acefc65020eb")
+	)
+	(no_connect
+		(at 106.68 143.51)
+		(uuid "d853ec99-1ede-43f3-8db2-98b3fe95d648")
+	)
+	(no_connect
+		(at 106.68 161.29)
+		(uuid "d8fff426-60db-4f3f-b2dc-ec225e5b2729")
+	)
+	(no_connect
+		(at 106.68 171.45)
+		(uuid "db9a2795-1525-4894-a12c-b459b02ba1db")
+	)
+	(no_connect
+		(at 106.68 156.21)
+		(uuid "f15f3122-3f90-4e89-97a9-407d201f3c50")
 	)
 	(wire
 		(pts
@@ -3841,16 +3905,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC847")
-		(at 219.71 44.45 0)
+		(at 219.71 62.23 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3aed0184-cf29-42a5-9b3a-0ac5c690eb03")
-		(property "Reference" "Q1"
-			(at 224.79 43.1799 0)
+		(uuid "383c17c9-d84d-46aa-bf07-6324c3d3b389")
+		(property "Reference" "Q3"
+			(at 224.79 60.9599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3859,7 +3923,7 @@
 			)
 		)
 		(property "Value" "BC847"
-			(at 224.79 45.7199 0)
+			(at 224.79 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,8 +3931,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 224.79 46.355 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 64.135 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3943,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 219.71 44.45 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3889,7 +3953,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 219.71 44.45 0)
+			(at 219.71 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,18 +3962,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "624f8b08-85a9-46f9-aac4-16cce199a62d")
-		)
-		(pin "3"
-			(uuid "394d301f-23c7-4d2e-bc43-3aa9b93dcc12")
+			(uuid "9cda1d82-9ecc-4261-80ee-d19c30d10f78")
 		)
 		(pin "1"
-			(uuid "ac037e09-edeb-4e89-89bf-8f0023723aba")
+			(uuid "12953c7e-c9db-4df9-ad3d-3c26ad7aff30")
+		)
+		(pin "3"
+			(uuid "ab4194c2-874a-4872-938a-49cb39ebd406")
 		)
 		(instances
 			(project ""
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
-					(reference "Q1")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -5144,16 +5208,16 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:BC847")
-		(at 219.71 62.23 0)
+		(at 219.71 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e07b3fda-8e72-4ed9-b1d1-de3cba73650a")
-		(property "Reference" "Q2"
-			(at 224.79 60.9599 0)
+		(uuid "dd6e5ad8-d799-48d2-9525-97bdd886a489")
+		(property "Reference" "Q1"
+			(at 224.79 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5162,7 +5226,7 @@
 			)
 		)
 		(property "Value" "BC847"
-			(at 224.79 63.4999 0)
+			(at 224.79 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5170,8 +5234,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 224.79 64.135 0)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 46.355 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5182,7 +5246,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 219.71 62.23 0)
+			(at 219.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5192,7 +5256,7 @@
 			)
 		)
 		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 219.71 62.23 0)
+			(at 219.71 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5201,18 +5265,18 @@
 			)
 		)
 		(pin "2"
-			(uuid "0c8fcb68-7223-494f-b20e-5e3408a9bddc")
-		)
-		(pin "3"
-			(uuid "e00b5e20-44e3-4c4a-8f89-554479195610")
+			(uuid "41048275-a99e-47aa-86f6-4b1c7aae2cac")
 		)
 		(pin "1"
-			(uuid "a87ab7fc-8232-4b7a-ab2c-1d1b73d6841a")
+			(uuid "f6579940-2ac4-4bf0-be13-dbbbfde2eb57")
+		)
+		(pin "3"
+			(uuid "c4300aaf-102b-4785-8cad-b827173f54a5")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
