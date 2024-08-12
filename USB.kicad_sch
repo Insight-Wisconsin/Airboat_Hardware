@@ -13,6 +13,196 @@
 		(comment 2 "This sheet contais the standard USB to UART layout for the ESP32-WROOM module.")
 	)
 	(lib_symbols
+		(symbol "BC818_1"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "BC818"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "0.8A Ic, 25V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BC818_1_0_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BC818_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.715)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:USB_B_Micro"
 			(pin_names
 				(offset 1.016)
@@ -1519,7 +1709,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC847"
+		(symbol "Transistor_BJT:BC818"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1534,7 +1724,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC847"
+			(property "Value" "BC818"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1554,7 +1744,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1564,7 +1754,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+			(property "Description" "0.8A Ic, 25V Vce, NPN Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1573,7 +1763,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Small Signal Transistor"
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1591,7 +1781,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC847_0_1"
+			(symbol "BC818_0_1"
 				(polyline
 					(pts
 						(xy 0.635 0.635) (xy 2.54 2.54)
@@ -1652,7 +1842,7 @@
 					)
 				)
 			)
-			(symbol "BC847_1_1"
+			(symbol "BC818_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 5.715)
@@ -2053,7 +2243,7 @@
 		(uuid "0dad4dd1-1a4a-4dd2-a440-cb48118f2069")
 	)
 	(junction
-		(at 200.66 44.45)
+		(at 186.69 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "173fc779-ee08-4093-a877-0bbf5319ec6a")
@@ -2083,7 +2273,7 @@
 		(uuid "8ae31aa9-258d-4b61-8fa3-c6fc8cb565bf")
 	)
 	(junction
-		(at 201.93 62.23)
+		(at 187.96 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e1c3a4a-9bb4-4970-9ef8-0391c43f68ce")
@@ -2176,7 +2366,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 44.45) (xy 214.63 44.45)
+			(xy 196.85 44.45) (xy 214.63 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2206,7 +2396,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 200.66 68.58)
+			(xy 186.69 44.45) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2216,7 +2406,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 121.92) (xy 74.93 125.73)
+			(xy 67.31 120.65) (xy 67.31 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2246,6 +2436,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 110.49) (xy 67.31 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3adbfe4b-30ff-4eaf-998e-59b1190a802e")
+	)
+	(wire
+		(pts
 			(xy 43.18 139.7) (xy 43.18 138.43)
 		)
 		(stroke
@@ -2256,7 +2456,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 44.45) (xy 203.2 44.45)
+			(xy 186.69 44.45) (xy 189.23 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2317,17 +2517,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 111.76) (xy 74.93 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55d24ae3-ba05-44e8-bf8b-0f59b1dbfba2")
-	)
-	(wire
-		(pts
-			(xy 199.39 62.23) (xy 201.93 62.23)
+			(xy 185.42 62.23) (xy 187.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2527,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 62.23) (xy 214.63 62.23)
+			(xy 196.85 62.23) (xy 214.63 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 53.34) (xy 201.93 53.34)
+			(xy 222.25 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2427,7 +2617,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 53.34) (xy 201.93 62.23)
+			(xy 187.96 53.34) (xy 187.96 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2437,7 +2627,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 44.45) (xy 200.66 44.45)
+			(xy 185.42 44.45) (xy 186.69 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2667,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 62.23) (xy 203.2 62.23)
+			(xy 187.96 62.23) (xy 189.23 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2538,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 68.58) (xy 200.66 68.58)
+			(xy 222.25 68.58) (xy 186.69 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2588,7 +2778,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 125.73) (xy 81.28 125.73)
+			(xy 67.31 125.73) (xy 81.28 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3454,6 +3644,17 @@
 			"MXveF7JCBIhAjwT+AbWgabAZ+zbUAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "CP2102_RST"
+		(at 80.01 125.73 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "045fa1a0-33ce-48aa-ac33-98929ceefe90")
+	)
 	(label "USB Micro Connector"
 		(at 41.91 29.21 0)
 		(fields_autoplaced yes)
@@ -3464,6 +3665,39 @@
 			(justify left bottom)
 		)
 		(uuid "4e91d924-88ff-4c4e-837f-bb3baee17768")
+	)
+	(label "DTR_BASE"
+		(at 204.47 44.45 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "78a96002-a59b-424f-bb8b-0ea2d555e57c")
+	)
+	(label "RTS_BASE"
+		(at 204.47 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a49009a6-765e-4600-952d-6f6dcc35dcb6")
+	)
+	(label "CP2102_VBUS"
+		(at 58.42 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4997cea-7d93-4a27-8a43-4ec07bf05fb2")
 	)
 	(label "Programming Reset Logic"
 		(at 176.53 31.75 0)
@@ -3555,7 +3789,7 @@
 	)
 	(global_label "RTS"
 		(shape input)
-		(at 199.39 62.23 180)
+		(at 185.42 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3565,7 +3799,7 @@
 		)
 		(uuid "57f40f32-2579-44a0-bc00-724bdbbee155")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.9577 62.23 0)
+			(at 178.9877 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3731,7 +3965,7 @@
 	)
 	(global_label "DTR"
 		(shape input)
-		(at 199.39 44.45 180)
+		(at 185.42 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3741,7 +3975,7 @@
 		)
 		(uuid "f790ebb3-d555-4401-9c0f-35e72bf07a57")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 192.8972 44.45 0)
+			(at 178.9272 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,82 +4267,6 @@
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC847")
-		(at 219.71 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "383c17c9-d84d-46aa-bf07-6324c3d3b389")
-		(property "Reference" "Q3"
-			(at 224.79 60.9599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC847"
-			(at 224.79 63.4999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 224.79 64.135 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
-			(at 219.71 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9cda1d82-9ecc-4261-80ee-d19c30d10f78")
-		)
-		(pin "1"
-			(uuid "12953c7e-c9db-4df9-ad3d-3c26ad7aff30")
-		)
-		(pin "3"
-			(uuid "ab4194c2-874a-4872-938a-49cb39ebd406")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4747,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 62.23 90)
+		(at 193.04 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4598,7 +4756,7 @@
 		(fields_autoplaced yes)
 		(uuid "699606bc-66ff-4ef3-ae76-2c90acdd478e")
 		(property "Reference" "R6"
-			(at 207.01 55.88 90)
+			(at 193.04 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4606,7 +4764,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 207.01 58.42 90)
+			(at 193.04 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.01 64.008 90)
+			(at 193.04 64.008 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4781,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 62.23 0)
+			(at 193.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4790,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 62.23 0)
+			(at 193.04 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4657,7 +4815,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 74.93 111.76 0)
+		(at 67.31 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4666,7 +4824,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bc3e919-0e66-49a0-b74a-3856dfe65d78")
 		(property "Reference" "#PWR019"
-			(at 74.93 115.57 0)
+			(at 67.31 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,7 +4833,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 74.93 106.68 0)
+			(at 67.31 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4683,7 +4841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 111.76 0)
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +4850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 111.76 0)
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +4859,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 74.93 111.76 0)
+			(at 67.31 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4723,7 +4881,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 207.01 44.45 90)
+		(at 193.04 44.45 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4732,7 +4890,7 @@
 		(fields_autoplaced yes)
 		(uuid "7cba38c8-adec-41bf-b136-d8b6c422ad2b")
 		(property "Reference" "R5"
-			(at 207.01 38.1 90)
+			(at 193.04 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4898,7 @@
 			)
 		)
 		(property "Value" "10kR"
-			(at 207.01 40.64 90)
+			(at 193.04 40.64 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4748,7 +4906,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 207.01 46.228 90)
+			(at 193.04 46.228 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4757,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 207.01 44.45 0)
+			(at 193.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4766,7 +4924,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 207.01 44.45 0)
+			(at 193.04 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +5161,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 74.93 118.11 0)
+		(at 67.31 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5012,7 +5170,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a916049-c05e-451d-a633-cade66829861")
 		(property "Reference" "R2"
-			(at 77.47 116.8399 0)
+			(at 69.85 115.5699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5021,7 +5179,7 @@
 			)
 		)
 		(property "Value" "1kR"
-			(at 77.47 119.3799 0)
+			(at 69.85 118.1099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5030,7 +5188,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 73.152 118.11 90)
+			(at 65.532 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5039,7 +5197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 118.11 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5048,7 +5206,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 74.93 118.11 0)
+			(at 67.31 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,6 +5434,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BC818")
+		(at 219.71 62.23 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "baf58943-8143-4b4d-8029-58e072aac0b7")
+		(property "Reference" "Q1"
+			(at 224.79 60.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BC818"
+			(at 224.79 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 224.79 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.8A Ic, 25V Vce, NPN Transistor, SOT-23"
+			(at 219.71 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "298a8cbb-aa15-480a-9e8c-d0e293cffcfa")
+		)
+		(pin "2"
+			(uuid "60fc50b9-3445-4a9b-9a98-7b2f8aef7145")
+		)
+		(pin "1"
+			(uuid "f2eae8f0-b852-485c-b162-3501994bb298")
+		)
+		(instances
+			(project "Airboat"
+				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 29.21 134.62 0)
 		(unit 1)
@@ -5342,7 +5576,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC847")
+		(lib_name "BC818_1")
+		(lib_id "Transistor_BJT:BC818")
 		(at 219.71 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5350,8 +5585,8 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dd6e5ad8-d799-48d2-9525-97bdd886a489")
-		(property "Reference" "Q1"
+		(uuid "d507b406-f0c3-471e-ab5c-201d396e87e4")
+		(property "Reference" "Q2"
 			(at 224.79 43.1799 0)
 			(effects
 				(font
@@ -5360,7 +5595,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BC847"
+		(property "Value" "BC818"
 			(at 224.79 45.7199 0)
 			(effects
 				(font
@@ -5380,7 +5615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657"
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC818-D.pdf"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -5390,7 +5625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0.1A Ic, 45V Vce, NPN Transistor, SOT-23"
+		(property "Description" "0.8A Ic, 25V Vce, NPN Transistor, SOT-23"
 			(at 219.71 44.45 0)
 			(effects
 				(font
@@ -5399,19 +5634,19 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "2a07aec0-bb34-492c-bb90-4c58ff67768c")
+		)
 		(pin "2"
-			(uuid "41048275-a99e-47aa-86f6-4b1c7aae2cac")
+			(uuid "7e4c2495-c6bd-466a-9b64-02a3f3fb24a1")
 		)
 		(pin "1"
-			(uuid "f6579940-2ac4-4bf0-be13-dbbbfde2eb57")
-		)
-		(pin "3"
-			(uuid "c4300aaf-102b-4785-8cad-b827173f54a5")
+			(uuid "128672c1-e0ba-4f38-a52e-0dbc4771c9bb")
 		)
 		(instances
-			(project "Airboat"
+			(project ""
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
