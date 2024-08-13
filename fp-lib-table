@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Insight Logo")(type "KiCad")(uri "D:/Insight/Custom KiCAD Libraries/Footprints/")(options "")(descr ""))
+)
