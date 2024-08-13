@@ -1047,146 +1047,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:AP2204RB-5.0"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -5.08 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "AP2204RB-5.0"
-				(at 0 3.175 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150mA low dropout linear regulator, wide input voltage range, 5.0V fixed positive output, SOT-89-3 package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "linear regulator ldo fixed positive"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?89*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "AP2204RB-5.0_0_1"
-				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "AP2204RB-5.0_1_1"
-				(pin power_out line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -7.62 0 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -1651,46 +1511,28 @@
 		(uuid "11304e07-0d4f-48ad-b7eb-bee3da2bc218")
 	)
 	(junction
-		(at 44.45 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2250f0dc-eac8-423c-abc2-259994e4588d")
-	)
-	(junction
 		(at 72.39 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28aba8a1-5e86-4a0e-8ce8-8714387a71c4")
 	)
 	(junction
-		(at 215.9 134.62)
+		(at 194.31 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a6e9bce-01fa-4d19-b4c3-d8c31399a60b")
+		(uuid "2d630d18-e259-4a89-b96a-115f919f40c4")
 	)
 	(junction
-		(at 44.45 114.3)
+		(at 194.31 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "491f304c-949c-479f-a730-d008650c3ab1")
+		(uuid "69026bd9-b122-4a65-8d73-09918230f8e8")
 	)
 	(junction
-		(at 71.12 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "67279753-b984-47e3-8cf6-cc97661c086c")
-	)
-	(junction
-		(at 43.18 181.61)
+		(at 49.53 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76744e36-c46b-4b4f-9816-749fad2956c1")
-	)
-	(junction
-		(at 82.55 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "89cbf113-a1de-410d-aedd-d14bb007f79f")
 	)
 	(junction
 		(at 193.04 55.88)
@@ -1705,40 +1547,26 @@
 		(uuid "8e6d4efd-fe33-4f7f-b792-4ef3dbd2233c")
 	)
 	(junction
-		(at 189.23 134.62)
+		(at 232.41 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f18bb6ee-08eb-4723-9bd6-3ee851de1275")
+		(uuid "fee12eb6-cf95-42dd-81c1-312a51c1f1de")
+	)
+	(junction
+		(at 220.98 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff8ebdd4-3d5d-4387-9a8d-c4b0de49f696")
 	)
 	(wire
 		(pts
-			(xy 44.45 101.6) (xy 57.15 101.6)
+			(xy 212.09 137.16) (xy 220.98 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0010944e-39dc-401a-8816-19c4adedf720")
-	)
-	(wire
-		(pts
-			(xy 82.55 101.6) (xy 82.55 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00aecfee-1380-4f7b-beed-d257cd67937e")
-	)
-	(wire
-		(pts
-			(xy 209.55 134.62) (xy 215.9 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "062c9eb9-cff8-4503-9831-c25f41186c82")
+		(uuid "04b61bcf-06da-40ba-ad72-e212f4e1454c")
 	)
 	(wire
 		(pts
@@ -1752,28 +1580,17 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 109.22) (xy 44.45 114.3)
+			(xy 220.98 137.16) (xy 232.41 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14c1d2fa-15ef-4a22-954b-e878d6f76b20")
-	)
-	(polyline
-		(pts
-			(xy 12.4492 135.9649) (xy 135.89 135.89)
-		)
-		(stroke
-			(width 1)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "155899b4-2ad3-4eef-b65c-1571397318f9")
+		(uuid "153e4cde-6a12-4fc9-829f-8845743fb137")
 	)
 	(wire
 		(pts
-			(xy 81.28 181.61) (xy 81.28 184.15)
+			(xy 87.63 165.1) (xy 87.63 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1783,7 +1600,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 176.53) (xy 43.18 181.61)
+			(xy 49.53 160.02) (xy 49.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1793,7 +1610,27 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 160.02) (xy 81.28 160.02)
+			(xy 194.31 149.86) (xy 207.01 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24d33039-699d-4998-ae3d-d8ae556336ba")
+	)
+	(wire
+		(pts
+			(xy 232.41 137.16) (xy 232.41 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b21dbf-4e06-4769-a17b-a68f2477036a")
+	)
+	(wire
+		(pts
+			(xy 82.55 143.51) (xy 87.63 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1803,7 +1640,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 154.94) (xy 43.18 160.02)
+			(xy 49.53 138.43) (xy 49.53 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1853,16 +1690,6 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 189.23 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35e27b87-932c-486a-b24f-3ac2a7c6c3f0")
-	)
-	(wire
-		(pts
 			(xy 193.04 55.88) (xy 198.12 55.88)
 		)
 		(stroke
@@ -1873,7 +1700,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 181.61) (xy 81.28 181.61)
+			(xy 82.55 165.1) (xy 87.63 165.1)
 		)
 		(stroke
 			(width 0)
@@ -1883,27 +1710,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 142.24) (xy 189.23 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409fabc6-14dd-4301-abdc-3be1643d39c1")
-	)
-	(wire
-		(pts
-			(xy 71.12 114.3) (xy 71.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42639c14-d007-4baf-ac56-cea7418c55fc")
-	)
-	(wire
-		(pts
-			(xy 81.28 160.02) (xy 81.28 162.56)
+			(xy 87.63 143.51) (xy 87.63 146.05)
 		)
 		(stroke
 			(width 0)
@@ -1913,7 +1720,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 160.02) (xy 54.61 160.02)
+			(xy 49.53 143.51) (xy 60.96 143.51)
 		)
 		(stroke
 			(width 0)
@@ -1933,33 +1740,33 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 114.3) (xy 57.15 114.3)
+			(xy 191.77 137.16) (xy 194.31 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "632691f1-f0c1-4221-8aa4-6e41b79d47f1")
+		(uuid "61cfc1a4-4567-4852-9a02-8b3ae1cffd1a")
 	)
 	(wire
 		(pts
-			(xy 215.9 129.54) (xy 215.9 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "752a83c5-9b38-46a3-962b-4a8b1afa6643")
-	)
-	(wire
-		(pts
-			(xy 43.18 181.61) (xy 54.61 181.61)
+			(xy 49.53 165.1) (xy 60.96 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "770a06d0-de33-4f11-a814-1aed8b6565c7")
+	)
+	(wire
+		(pts
+			(xy 194.31 137.16) (xy 207.01 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8414e831-ea2c-406f-a46c-b316f65d9413")
 	)
 	(wire
 		(pts
@@ -1973,37 +1780,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 101.6) (xy 71.12 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "920aa7c7-f24e-4221-95ae-95616b43a137")
-	)
-	(wire
-		(pts
-			(xy 71.12 101.6) (xy 82.55 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9978a05b-18c0-4a3a-ac75-ed39156c7951")
-	)
-	(wire
-		(pts
-			(xy 189.23 134.62) (xy 194.31 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e4048f9-53c0-429b-82bc-cc0020719d6a")
-	)
-	(wire
-		(pts
-			(xy 40.64 181.61) (xy 43.18 181.61)
+			(xy 46.99 165.1) (xy 49.53 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2013,23 +1790,33 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 142.24) (xy 201.93 144.78)
+			(xy 194.31 144.78) (xy 194.31 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ace0728c-4966-4e1b-9966-fee45c9219ca")
+		(uuid "b15068f2-1902-4a5c-a002-50a3f63c8d00")
 	)
 	(wire
 		(pts
-			(xy 62.23 181.61) (xy 68.58 181.61)
+			(xy 68.58 165.1) (xy 74.93 165.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b2f1f031-9cc8-4d77-be94-359bbb96b1db")
+	)
+	(wire
+		(pts
+			(xy 191.77 149.86) (xy 194.31 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5ba48bc-1004-4061-9372-673cd8c2c07e")
 	)
 	(wire
 		(pts
@@ -2040,16 +1827,6 @@
 			(type default)
 		)
 		(uuid "b7cc0942-df81-49b4-be1a-ba9006d6c0d6")
-	)
-	(wire
-		(pts
-			(xy 41.91 101.6) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb7ef2fc-a22e-4a9f-9b44-1e7767f1f0ba")
 	)
 	(polyline
 		(pts
@@ -2064,13 +1841,23 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 114.3) (xy 44.45 114.3)
+			(xy 212.09 149.86) (xy 220.98 149.86)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc50d367-e948-4a24-af60-d520fc15fe17")
+		(uuid "c9e3298d-0ae5-4ed7-ba81-f292e7cc20e1")
+	)
+	(wire
+		(pts
+			(xy 194.31 130.81) (xy 194.31 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9fc0821-ef98-4a4a-a5f9-04af37dfd4f6")
 	)
 	(wire
 		(pts
@@ -2091,26 +1878,6 @@
 			(type default)
 		)
 		(uuid "d7ba49f3-7bd1-4003-b70c-fb6a758ecfad")
-	)
-	(wire
-		(pts
-			(xy 44.45 96.52) (xy 44.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d885088a-168c-4cf5-bbd6-e736788e629b")
-	)
-	(wire
-		(pts
-			(xy 215.9 142.24) (xy 215.9 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e49d36c8-4663-4487-9289-1fe6ae64895d")
 	)
 	(polyline
 		(pts
@@ -2135,7 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 160.02) (xy 68.58 160.02)
+			(xy 68.58 143.51) (xy 74.93 143.51)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +1912,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.4504 72.4176) (xy 135.89 72.39)
+			(xy 12.4504 102.8976) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 1)
@@ -2166,13 +1933,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 114.3) (xy 71.12 114.3)
+			(xy 220.98 149.86) (xy 220.98 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f9c89f75-5d23-4b28-b6b9-8ca42b49fab1")
+		(uuid "fd46f383-5601-4327-bcb2-0a294ed37221")
 	)
 	(image
 		(at 26.67 16.51)
@@ -2841,19 +2608,8 @@
 			"MXveF7JCBIhAjwT+AbWgabAZ+zbUAAAAAElFTkSuQmCC"
 		)
 	)
-	(label "5V Converter"
-		(at 185.42 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 4 4)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c505645-131e-431e-8140-d2d67c7976d3")
-	)
 	(label "5V Diode OR"
-		(at 44.45 85.09 0)
+		(at 194.31 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2861,7 +2617,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "7771c578-b4a2-4763-9e56-6d3cf831f11d")
+		(uuid "aec66909-4060-404e-9ccb-da5d99425636")
 	)
 	(label "Battery Barrel Connector"
 		(at 25.4 31.75 0)
@@ -2875,7 +2631,7 @@
 		(uuid "b9a09b6b-6558-4722-be4f-1ca0bf1ec8fe")
 	)
 	(label "Status LED's"
-		(at 43.18 144.78 0)
+		(at 49.53 128.27 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2898,7 +2654,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 160.02 90)
+		(at 78.74 143.51 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2907,7 +2663,7 @@
 		(fields_autoplaced yes)
 		(uuid "00a0a6fa-bc8f-4bda-add0-9d38b9fdfdba")
 		(property "Reference" "R7"
-			(at 72.39 153.67 90)
+			(at 78.74 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +2671,7 @@
 			)
 		)
 		(property "Value" "330R"
-			(at 72.39 156.21 90)
+			(at 78.74 139.7 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2679,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.39 161.798 90)
+			(at 78.74 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2932,7 +2688,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 160.02 0)
+			(at 78.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2941,7 +2697,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 160.02 0)
+			(at 78.74 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2966,7 +2722,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 181.61 180)
+		(at 64.77 165.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2975,7 +2731,7 @@
 		(fields_autoplaced yes)
 		(uuid "01d84583-c64d-4f94-9947-1978d65b9904")
 		(property "Reference" "D8"
-			(at 60.0075 173.99 0)
+			(at 66.3575 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +2739,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 60.0075 176.53 0)
+			(at 66.3575 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2991,7 +2747,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 58.42 181.61 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3000,7 +2756,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 181.61 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3009,7 +2765,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 181.61 0)
+			(at 64.77 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,17 +2855,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+BATT")
-		(at 189.23 129.54 0)
+		(lib_id "Connector:TestPoint")
+		(at 191.77 149.86 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07372fce-1b31-4f05-9b59-17fffa98e47d")
-		(property "Reference" "#PWR027"
-			(at 189.23 133.35 0)
+		(uuid "0b31aeab-6eb3-4975-b1cc-669d3c33b21d")
+		(property "Reference" "5V_USB1"
+			(at 188.468 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5VUSB_TP"
+			(at 188.468 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3117,16 +2889,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+BATT"
-			(at 189.23 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 129.54 0)
+		(property "Datasheet" "~"
+			(at 191.77 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3134,17 +2898,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 189.23 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 189.23 129.54 0)
+		(property "Description" "test point"
+			(at 191.77 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3153,12 +2908,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "950cbadf-3481-4871-9559-39b641f2744a")
+			(uuid "d23e2422-d9db-4b7c-9dcd-4d2729d89e94")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR027")
+					(reference "5V_USB1")
 					(unit 1)
 				)
 			)
@@ -3166,7 +2921,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 162.56 0)
+		(at 87.63 146.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3175,7 +2930,7 @@
 		(fields_autoplaced yes)
 		(uuid "0d530d49-858c-4dd1-8dc5-742e240aa2bf")
 		(property "Reference" "#PWR038"
-			(at 81.28 168.91 0)
+			(at 87.63 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3184,7 +2939,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 167.64 0)
+			(at 87.63 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3192,7 +2947,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 162.56 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +2956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 162.56 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +2965,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 162.56 0)
+			(at 87.63 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,138 +3052,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 82.55 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b7ca41c-6656-48b8-ae51-f4e19409ed70")
-		(property "Reference" "#PWR035"
-			(at 82.55 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 82.55 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 82.55 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c297983-5c09-4534-8261-940d56e48716")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 189.23 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1d2637e3-e64f-4a31-91b6-29a48f151fce")
-		(property "Reference" "#PWR024"
-			(at 189.23 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 189.23 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 189.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4e82533d-aa94-4a27-822b-ba9367a1648d")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR024")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Regulator_Linear:AP2127N-3.3")
 		(at 205.74 55.88 0)
 		(unit 1)
@@ -3501,33 +3124,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 101.6 90)
+		(lib_id "power:+5V")
+		(at 232.41 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22fb3553-3c03-4aa2-b414-18bd913ed39d")
-		(property "Reference" "5V_VBAT1"
-			(at 38.608 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5VBAT_TP"
-			(at 38.608 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 41.91 96.52 0)
+		(uuid "1ebc5c5e-98fa-44d3-a669-52d39d63436b")
+		(property "Reference" "#PWR024"
+			(at 232.41 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3535,8 +3141,17 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 41.91 96.52 0)
+		(property "Value" "+V_MCU"
+			(at 228.5039 127.3103 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,8 +3159,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 41.91 101.6 0)
+		(property "Datasheet" ""
+			(at 232.41 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 232.41 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,12 +3178,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2523ee24-e5d0-4941-9003-4b4b8ab3f4bf")
+			(uuid "01821d41-24bd-4857-9b2b-2e8068a2d7d6")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "5V_VBAT1")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -3637,7 +3261,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 58.42 160.02 180)
+		(at 64.77 143.51 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3646,7 +3270,7 @@
 		(fields_autoplaced yes)
 		(uuid "33041823-a38d-4f72-a483-089e448a895e")
 		(property "Reference" "D7"
-			(at 60.0075 152.4 0)
+			(at 66.3575 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3654,7 +3278,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 60.0075 154.94 0)
+			(at 66.3575 138.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3662,7 +3286,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
-			(at 58.42 160.02 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3671,7 +3295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 58.42 160.02 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3680,7 +3304,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 58.42 160.02 0)
+			(at 64.77 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,17 +3328,35 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 193.04 50.8 0)
+		(lib_id "Connector:TestPoint")
+		(at 232.41 137.16 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "495c0f9c-472c-42f5-8284-5694f6457d8d")
-		(property "Reference" "#PWR030"
-			(at 193.04 54.61 0)
+		(uuid "50c3b1cf-d609-4280-b8c7-76b9c03d7efa")
+		(property "Reference" "5V1"
+			(at 237.49 135.8899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5V_TP"
+			(at 237.49 138.4299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3722,16 +3364,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 193.04 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 193.04 50.8 0)
+		(property "Datasheet" "~"
+			(at 232.41 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,17 +3373,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 193.04 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 193.04 50.8 0)
+		(property "Description" "test point"
+			(at 232.41 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3758,12 +3383,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "79d77a2d-2260-4ba2-8ccb-bddcf79cc273")
+			(uuid "7ce5072c-fdd9-4504-b78b-ce6ed63eb07a")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR030")
+					(reference "5V1")
 					(unit 1)
 				)
 			)
@@ -3836,17 +3461,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 201.93 144.78 0)
+		(lib_id "Device:D_Schottky_Small")
+		(at 209.55 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7ac01c6e-9048-433c-9784-6fda4f583d76")
-		(property "Reference" "#PWR022"
-			(at 201.93 151.13 0)
+		(uuid "843ff0f0-6171-4a51-b22d-c69ba86eb8a0")
+		(property "Reference" "D6"
+			(at 209.804 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D_Schottky_Small"
+			(at 209.804 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 209.55 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3854,16 +3495,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 201.93 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 144.78 0)
+		(property "Datasheet" "~"
+			(at 209.55 149.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3871,148 +3504,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 201.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "66358f52-ca9c-4a51-8232-73b8afe0e8f9")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 44.45 96.52 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7cf9c58b-1bad-40e1-bce5-97a3c0179b2f")
-		(property "Reference" "#PWR033"
-			(at 44.45 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_BAT"
-			(at 44.45 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 44.45 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85928dcc-86da-479f-9dc5-42cc5010540c")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:AP2204RB-5.0")
-		(at 201.93 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "83295967-daeb-4181-9b3a-786f9d6663ef")
-		(property "Reference" "U4"
-			(at 201.93 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2204RB-5.0"
-			(at 201.93 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-89-3"
-			(at 201.93 128.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/products_inactive_data/AP2204.pdf"
-			(at 201.93 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA low dropout linear regulator, wide input voltage range, 5.0V fixed positive output, SOT-89-3 package"
-			(at 201.93 134.62 0)
+		(property "Description" "Schottky diode, small symbol"
+			(at 209.55 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4021,18 +3514,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "daef1de2-d7d2-40a7-9c4e-f8506ca1e46f")
-		)
-		(pin "3"
-			(uuid "f9e89b97-7a92-422c-ac40-145356b3478b")
+			(uuid "fd1fab98-39ba-4eaf-90ca-3fad45749bc1")
 		)
 		(pin "1"
-			(uuid "7ffddb00-4705-428b-830e-854c0a2a2041")
+			(uuid "04c9f127-154d-4ccb-9f43-2307c611dfb0")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "U4")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -4040,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 81.28 184.15 0)
+		(at 87.63 167.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4049,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a0ac739-b97a-40a5-b830-aad3b544e2bb")
 		(property "Reference" "#PWR039"
-			(at 81.28 190.5 0)
+			(at 87.63 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4058,7 +3548,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 81.28 189.23 0)
+			(at 87.63 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4066,7 +3556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 81.28 184.15 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4075,7 +3565,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 81.28 184.15 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4084,7 +3574,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 81.28 184.15 0)
+			(at 87.63 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,74 +3595,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 44.45 109.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b43e8e5-be58-4628-9fd1-ec1a5a7bfd05")
-		(property "Reference" "#PWR034"
-			(at 44.45 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5_USB"
-			(at 44.45 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 44.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f5f47fbf-caf1-4205-ac43-57ee7b6370e5")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 40.64 181.61 90)
+		(at 46.99 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4181,7 +3605,7 @@
 		(fields_autoplaced yes)
 		(uuid "8d065c98-6961-424d-9b73-8ae67c30627d")
 		(property "Reference" "3v3"
-			(at 37.338 176.53 90)
+			(at 43.688 160.02 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4189,7 +3613,7 @@
 			)
 		)
 		(property "Value" "3V3_TP"
-			(at 37.338 179.07 90)
+			(at 43.688 162.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4197,7 +3621,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 40.64 176.53 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4206,7 +3630,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 40.64 176.53 0)
+			(at 46.99 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4215,7 +3639,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 40.64 181.61 0)
+			(at 46.99 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4302,33 +3726,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 59.69 101.6 180)
+		(lib_id "power:+5V")
+		(at 194.31 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "98bbe7c3-3c1b-4e00-beac-eec148f56339")
-		(property "Reference" "D5"
-			(at 59.944 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D_Schottky_Small"
-			(at 59.944 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 59.69 101.6 90)
+		(uuid "9fa936be-bf54-4bf7-b008-14d985d97c97")
+		(property "Reference" "#PWR023"
+			(at 194.31 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4336,60 +3744,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 59.69 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 59.69 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "37ebf1ce-2926-4017-b63b-58d0403982e0")
-		)
-		(pin "1"
-			(uuid "c709d7a6-538c-443e-9170-3ecc3f662957")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 215.9 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a01bb2c-d974-4b51-b220-63c31c995096")
-		(property "Reference" "#PWR028"
-			(at 215.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_BAT"
-			(at 215.9 124.46 0)
+		(property "Value" "+5_USB"
+			(at 194.31 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4397,7 +3753,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 129.54 0)
+			(at 194.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4406,7 +3762,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 129.54 0)
+			(at 194.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,75 +3770,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 215.9 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9db58dd8-10ac-4ddb-b512-b992864d692f")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 189.23 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5719c71-583f-4e7c-9a04-96ea28855183")
-		(property "Reference" "C6"
-			(at 193.04 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 193.04 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 190.1952 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 189.23 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 189.23 138.43 0)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 194.31 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4491,15 +3780,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f8b339a-727f-442d-bd26-38ae144461f1")
-		)
-		(pin "2"
-			(uuid "7277f2cb-b996-4c6a-84db-3b4e75554200")
+			(uuid "5f10e997-f19c-411f-a4ca-d1e19449117f")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "C6")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -4639,35 +3925,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 82.55 101.6 270)
+		(lib_id "power:+5V")
+		(at 194.31 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b0f611b7-90d6-4bbd-9ba7-d66a0211dfb2")
-		(property "Reference" "5V1"
-			(at 87.63 100.3299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "5V_TP"
-			(at 87.63 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 82.55 106.68 0)
+		(uuid "b17abcdc-1ae9-4015-b782-b6d2725768cd")
+		(property "Reference" "#PWR022"
+			(at 194.31 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4675,8 +3943,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 106.68 0)
+		(property "Value" "+VMCU"
+			(at 194.31 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4684,8 +3960,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 82.55 101.6 0)
+		(property "Datasheet" ""
+			(at 194.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 194.31 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4694,12 +3979,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2daee812-45b4-47f2-9ec7-b96b560dca53")
+			(uuid "f7498d96-d9a1-46c0-a581-d09e28ee88be")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "5V1")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -4843,33 +4128,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky_Small")
-		(at 59.69 114.3 180)
+		(lib_id "Connector:TestPoint")
+		(at 191.77 137.16 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "b5f390fe-61db-4955-b838-aa1bd36df955")
-		(property "Reference" "D6"
-			(at 59.944 107.95 0)
+		(uuid "c3edb5b8-a1a1-4522-b12a-389824859818")
+		(property "Reference" "V_MCU1"
+			(at 188.468 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D_Schottky_Small"
-			(at 59.944 110.49 0)
+		(property "Value" "5VBAT_TP"
+			(at 188.468 134.62 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SOD-523"
-			(at 59.69 114.3 90)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4878,7 +4163,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 114.3 90)
+			(at 191.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,78 +4171,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Schottky diode, small symbol"
-			(at 59.69 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "034cbfff-fe8d-4e8a-a0e4-03e9e8ef6094")
-		)
-		(pin "1"
-			(uuid "20db39dc-05ec-4262-a304-225da1963ca8")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 215.9 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb6828c2-25a0-485c-bfc1-408f71c3ac63")
-		(property "Reference" "C5"
-			(at 219.71 137.1599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 219.71 139.6999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 216.8652 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 215.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 215.9 138.43 0)
+		(property "Description" "test point"
+			(at 191.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4966,81 +4181,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "f305c879-51cc-4a79-a867-1de4c4f7e315")
-		)
-		(pin "2"
-			(uuid "dc5ea9dd-f81d-4208-b97f-97b8bf825c03")
+			(uuid "cd68fe06-13e9-4b69-a518-5c4a6a54d59b")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 43.18 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c11c4f84-2400-4dd4-959b-45c1efcaec4f")
-		(property "Reference" "#PWR031"
-			(at 43.18 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 43.18 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf3372b1-e34d-42cc-bdf2-4985ed035e2a")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR031")
+					(reference "V_MCU1")
 					(unit 1)
 				)
 			)
@@ -5117,74 +4263,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 215.9 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2659a32-9772-4a9c-ac85-36fc8a65f4ad")
-		(property "Reference" "#PWR023"
-			(at 215.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7b2b13c-5b8a-4b7d-beb9-8eedba0dc920")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
-		(at 43.18 176.53 0)
+		(at 49.53 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5193,7 +4273,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3f16180-791b-4081-8b83-466c08c631fa")
 		(property "Reference" "#PWR032"
-			(at 43.18 180.34 0)
+			(at 49.53 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5202,7 +4282,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 43.18 171.45 0)
+			(at 49.53 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +4290,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 176.53 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5219,7 +4299,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 176.53 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +4308,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 43.18 176.53 0)
+			(at 49.53 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5250,7 +4330,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 72.39 181.61 90)
+		(at 78.74 165.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5259,7 +4339,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd86211e-7e76-4f48-b079-21baa5384af0")
 		(property "Reference" "R8"
-			(at 72.39 175.26 90)
+			(at 78.74 158.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5267,7 +4347,7 @@
 			)
 		)
 		(property "Value" "330kR"
-			(at 72.39 177.8 90)
+			(at 78.74 161.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5275,7 +4355,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.39 183.388 90)
+			(at 78.74 166.878 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +4364,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 181.61 0)
+			(at 78.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +4373,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 72.39 181.61 0)
+			(at 78.74 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,33 +4397,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 41.91 114.3 90)
+		(lib_id "Device:D_Schottky_Small")
+		(at 209.55 137.16 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "f0f1711b-b27f-4f10-8c19-c1a84efeb1ff")
-		(property "Reference" "5V_USB1"
-			(at 38.608 109.22 90)
+		(uuid "e44e0448-e781-4668-a4fd-1c5a4c876d78")
+		(property "Reference" "D5"
+			(at 209.804 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "5VUSB_TP"
-			(at 38.608 111.76 90)
+		(property "Value" "D_Schottky_Small"
+			(at 209.804 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 41.91 109.22 0)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 209.55 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5352,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 109.22 0)
+			(at 209.55 137.16 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,22 +4440,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
-			(at 41.91 114.3 0)
+		(property "Description" "Schottky diode, small symbol"
+			(at 209.55 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(pin "2"
+			(uuid "ca84e7cf-8f1c-4729-b072-adf56b511193")
 		)
 		(pin "1"
-			(uuid "38e5fe91-a8ff-44f9-bbaf-5c48562e777e")
+			(uuid "0c4eb9af-4f02-4167-8144-6ed41fd1349e")
 		)
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bb914a23-e1b8-42c0-8b12-26fadab99985"
-					(reference "5V_USB1")
+					(reference "D5")
 					(unit 1)
 				)
 			)

@@ -5644,7 +5644,7 @@
 			(uuid "128672c1-e0ba-4f38-a52e-0dbc4771c9bb")
 		)
 		(instances
-			(project ""
+			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
 					(reference "Q2")
 					(unit 1)

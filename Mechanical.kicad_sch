@@ -1021,7 +1021,7 @@
 			)
 		)
 		(instances
-			(project ""
+			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/bcb33c5c-ad1b-4b20-95a2-055bafcbbda2"
 					(reference "L1")
 					(unit 1)
