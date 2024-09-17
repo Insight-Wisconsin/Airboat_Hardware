@@ -5080,86 +5080,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:USB_B_Micro")
-		(at 57.15 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93993586-b3f0-4831-8d83-ad583fbdae84")
-		(property "Reference" "J1"
-			(at 57.15 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "USB_B_Micro"
-			(at 57.15 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_USB:USB_Micro-AB_Molex_47590-0001"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 60.96 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "USB Micro Type B connector"
-			(at 57.15 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "ade33eed-c178-488a-abbd-f8e0bd5b8e34")
-		)
-		(pin "2"
-			(uuid "544c5a65-22df-4bac-9618-0662990659db")
-		)
-		(pin "1"
-			(uuid "a75779c3-fa32-4026-b706-3f197bf1e614")
-		)
-		(pin "4"
-			(uuid "962521bb-fe1b-479f-b677-125a58460431")
-		)
-		(pin "5"
-			(uuid "7f7a4631-46ac-4130-95fb-68f9fb9dff7d")
-		)
-		(pin "3"
-			(uuid "6841d4bf-af45-401d-b483-df13d347f7f9")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 67.31 116.84 0)
 		(unit 1)
@@ -5647,6 +5567,86 @@
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:USB_B_Micro")
+		(at 57.15 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf77bbe-e9ce-4b86-9c5d-b695d0b26bcf")
+		(property "Reference" "J4"
+			(at 57.15 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "USB_B_Micro"
+			(at 57.15 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_USB:USB_Micro-B_GCT_USB3076-30-A"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "USB Micro Type B connector"
+			(at 57.15 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e441ae3e-006f-4a14-a9e3-8e8cdb676eac")
+		)
+		(pin "2"
+			(uuid "2a9bd855-d971-455a-9ab0-844059d5b373")
+		)
+		(pin "5"
+			(uuid "444fbe21-80fb-4064-b86b-5c70a091adce")
+		)
+		(pin "4"
+			(uuid "221c035b-d3b2-4e87-827a-b27d8706e484")
+		)
+		(pin "3"
+			(uuid "13819cfb-84dc-4fe1-a1fd-c86666e9a3cd")
+		)
+		(pin "6"
+			(uuid "d50e8805-6a3f-4c22-ad97-f462e0f956ef")
+		)
+		(instances
+			(project ""
+				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/450de07c-431b-41c3-b4dc-3003fe77996d"
+					(reference "J4")
 					(unit 1)
 				)
 			)

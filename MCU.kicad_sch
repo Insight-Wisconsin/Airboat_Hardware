@@ -1635,6 +1635,10 @@
 		(uuid "0369f8e2-94ec-4a42-a9bf-0be641bbf7e0")
 	)
 	(no_connect
+		(at 113.03 78.74)
+		(uuid "05310eb4-f54b-4292-8a13-e730039865c6")
+	)
+	(no_connect
 		(at 113.03 83.82)
 		(uuid "089e9bd4-d684-425a-9321-d572f2d5f908")
 	)
@@ -1657,6 +1661,10 @@
 	(no_connect
 		(at 113.03 81.28)
 		(uuid "52933471-575c-46b2-ad2f-77cd6ea09981")
+	)
+	(no_connect
+		(at 113.03 111.76)
+		(uuid "6a2a45f6-1054-411a-aa4b-442bdaca28d9")
 	)
 	(no_connect
 		(at 113.03 63.5)
@@ -1724,16 +1732,6 @@
 			(color 0 19 0 1)
 		)
 		(uuid "25019767-98f7-4055-a886-a2213886fc8c")
-	)
-	(wire
-		(pts
-			(xy 113.03 78.74) (xy 116.84 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25924ce0-2d4f-4589-a5ac-690d349e0b7b")
 	)
 	(polyline
 		(pts
@@ -1906,16 +1904,6 @@
 			(type default)
 		)
 		(uuid "84c83f51-e7d0-4d45-9392-4b8a0bb3cc1b")
-	)
-	(wire
-		(pts
-			(xy 113.03 111.76) (xy 116.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "850a1f6c-8ada-4014-befa-4bece32be48a")
 	)
 	(wire
 		(pts
@@ -2881,50 +2869,6 @@
 			)
 		)
 	)
-	(global_label "RUDDER_PWM"
-		(shape input)
-		(at 116.84 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "12c93539-d4d0-48f3-810f-9f4b063ce5f2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 132.5251 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RUDDER_B"
-		(shape input)
-		(at 116.84 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "21192ecc-1f58-448b-9f76-1b9e53adc74f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.6223 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "FAN_B"
 		(shape input)
 		(at 116.84 106.68 0)
@@ -3123,7 +3067,7 @@
 			)
 		)
 	)
-	(global_label "RUDDER_F"
+	(global_label "RUDDER_SIG"
 		(shape input)
 		(at 116.84 73.66 0)
 		(fields_autoplaced yes)
@@ -3135,7 +3079,7 @@
 		)
 		(uuid "9b5d8069-9553-4bb5-a0e9-7cd7a57e86fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.4409 73.66 0)
+			(at 131.4366 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
