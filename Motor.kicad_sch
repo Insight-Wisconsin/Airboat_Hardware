@@ -2477,9 +2477,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "331eb20f-19ea-4f4f-95ae-4a3b27f75286")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR049"
 			(at 224.79 133.35 0)
 			(effects
 				(font
@@ -2488,12 +2487,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 224.79 124.46 0)
+		(property "Value" "+V_MCU"
+			(at 220.726 125.476 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2529,7 +2529,7 @@
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "#PWR045")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -2545,7 +2545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bef4b17-0377-4c6d-83b0-65458ea4eb71")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR050"
 			(at 224.79 148.59 0)
 			(effects
 				(font
@@ -2595,7 +2595,7 @@
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "#PWR030")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -2611,7 +2611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f627b61-f044-4cc8-b5ea-6036e0da8193")
-		(property "Reference" "U5"
+		(property "Reference" "U6"
 			(at 77.1241 78.74 0)
 			(effects
 				(font
@@ -2708,73 +2708,7 @@
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 72.39 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ab6157b-f2e2-421a-bc50-e9c22981c7a9")
-		(property "Reference" "#PWR041"
-			(at 72.39 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 72.39 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 72.39 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "13674caa-f036-481c-abc7-2e26d70bdf5d")
-		)
-		(instances
-			(project "Airboat"
-				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "#PWR041")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -2790,7 +2724,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eef60d6-0299-4ccb-a4d8-cfadf260bdf7")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 212.09 55.8799 0)
 			(effects
 				(font
@@ -2844,7 +2778,7 @@
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -2860,7 +2794,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5f39e1d-9d51-4c61-9534-714606f9edc6")
-		(property "Reference" "J1"
+		(property "Reference" "J3"
 			(at 200.025 129.54 0)
 			(effects
 				(font
@@ -2915,7 +2849,73 @@
 		(instances
 			(project ""
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "J1")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 72.39 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf543047-d8b7-430b-958f-6ecfd1a903c1")
+		(property "Reference" "#PWR047"
+			(at 72.39 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+12V"
+			(at 72.39 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 72.39 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af13e37a-2a51-4b18-a5cb-ae2b4fd991c0")
+		)
+		(instances
+			(project "Airboat"
+				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -2931,7 +2931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4df59d7-8ad8-47ef-a611-47a38f10e2ee")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR048"
 			(at 72.39 137.16 0)
 			(effects
 				(font
@@ -2981,7 +2981,7 @@
 		(instances
 			(project "Airboat"
 				(path "/32966cbd-337b-4fa7-b66f-bfe62b1c18c3/b4bf0452-8957-43b4-857b-1edc4fb175d7"
-					(reference "#PWR040")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
